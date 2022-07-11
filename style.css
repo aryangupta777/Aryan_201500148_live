@@ -1,0 +1,105 @@
+
+
+body
+{
+background-image: url(music.jpg) ;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+img.logo {
+    float: left;
+    width: 150px;
+    height: 80px;
+    
+  }
+
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links
+{
+  padding: 28px 0 ;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.links li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 0;
+
+}
+  
+img.search{
+    justify-content: end;
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+  }
+
+img.shopping {
+    justify-content: end;
+    width: 40px;
+    height: 40px;
+    padding-left: 0px;
+    
+  }
+
+img.menu {
+    justify-content: end;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+    
+  }
+
+h1{
+   font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 200px 500px 0px 500px;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 150px 10px 150px;
+}
+div.buttons{
+ align-items: center;
+}
+
+
+button.buy{
+    font-size: 20px;
+    border-radius: 20px;
+color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    border-color: white;
+width: 200px;
+height: 40px;
+
+}
+
+button.explore{
+    font-size: 20px;
+    border-radius: 20px;
+ color: white;
+ background-color: orange;
+ font-family: 'Courier New', Courier, monospace;
+ border-color: white;
+ width: 200px;
+ height: 40px;
+}
